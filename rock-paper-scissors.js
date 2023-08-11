@@ -37,7 +37,7 @@ function playRound(playerSelection, computerSelection) {
         return outcome;
     }
 }
-
+// simulate a full 5 round match
 function game() {
     for (let rounds = 0; rounds < 5; rounds++) {
 
@@ -48,7 +48,7 @@ function game() {
         console.log(playRound(playerSelection, computerSelection));
     }
 }
-
+// keep score and announce winner
 function checkScore() {
     if (playerScore > computerScore) {
         console.log("Player Wins The Match!");
@@ -62,4 +62,4 @@ function checkScore() {
 }
 
 game();
-checkScore()
+checkScore();
