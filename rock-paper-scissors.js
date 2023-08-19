@@ -20,9 +20,6 @@ function getComputerChoice() {
 
 // simulate a game of rock paper scissors
 function playRound(playerSelection, computerSelection) {
-    console.log('1 ', playerScore, '2 ', computerScore);
-    console.log('1 ', playerSelection, '2 ', computerSelection); 
-
     if (playerScore === 5 || computerScore === 5) {
         checkScore();
         return;
